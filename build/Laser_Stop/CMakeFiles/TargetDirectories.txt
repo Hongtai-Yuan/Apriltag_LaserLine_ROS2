@@ -1,0 +1,10 @@
+/home/yuan/Desktop/Apriltag_LaserLine_ROS2/build/Laser_Stop/CMakeFiles/uninstall.dir
+/home/yuan/Desktop/Apriltag_LaserLine_ROS2/build/Laser_Stop/CMakeFiles/Laser_Stop_uninstall.dir
+/home/yuan/Desktop/Apriltag_LaserLine_ROS2/build/Laser_Stop/CMakeFiles/Laser_Stop.dir
+/home/yuan/Desktop/Apriltag_LaserLine_ROS2/build/Laser_Stop/CMakeFiles/test.dir
+/home/yuan/Desktop/Apriltag_LaserLine_ROS2/build/Laser_Stop/CMakeFiles/edit_cache.dir
+/home/yuan/Desktop/Apriltag_LaserLine_ROS2/build/Laser_Stop/CMakeFiles/rebuild_cache.dir
+/home/yuan/Desktop/Apriltag_LaserLine_ROS2/build/Laser_Stop/CMakeFiles/list_install_components.dir
+/home/yuan/Desktop/Apriltag_LaserLine_ROS2/build/Laser_Stop/CMakeFiles/install.dir
+/home/yuan/Desktop/Apriltag_LaserLine_ROS2/build/Laser_Stop/CMakeFiles/install/local.dir
+/home/yuan/Desktop/Apriltag_LaserLine_ROS2/build/Laser_Stop/CMakeFiles/install/strip.dir

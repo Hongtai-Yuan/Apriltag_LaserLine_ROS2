@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -Wsign-compare -g -march=native  -std=gnu99 -rdynamic CMakeFiles/apriltag_demo.dir/apriltag_demo.c.o -o ../bin/apriltag_demo  -Wl,-rpath,/home/yuan/Desktop/Apriltag_LaserLine_ROS2/build/AprilTag/lib: ../lib/libapriltag.so -lm 

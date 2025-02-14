@@ -1,0 +1,6 @@
+Invoking command in '/home/yuan/Desktop/Apriltag_LaserLine_ROS2/build/AprilTag': /usr/bin/cmake /home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB -DCMAKE_INSTALL_PREFIX=/home/yuan/Desktop/Apriltag_LaserLine_ROS2/install/AprilTag
+Invoked command in '/home/yuan/Desktop/Apriltag_LaserLine_ROS2/build/AprilTag' returned '0': /usr/bin/cmake /home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB -DCMAKE_INSTALL_PREFIX=/home/yuan/Desktop/Apriltag_LaserLine_ROS2/install/AprilTag
+Invoking command in '/home/yuan/Desktop/Apriltag_LaserLine_ROS2/build/AprilTag': /usr/bin/cmake --build /home/yuan/Desktop/Apriltag_LaserLine_ROS2/build/AprilTag -- -j16 -l16
+Invoked command in '/home/yuan/Desktop/Apriltag_LaserLine_ROS2/build/AprilTag' returned '0': /usr/bin/cmake --build /home/yuan/Desktop/Apriltag_LaserLine_ROS2/build/AprilTag -- -j16 -l16
+Invoking command in '/home/yuan/Desktop/Apriltag_LaserLine_ROS2/build/AprilTag': /usr/bin/cmake --install /home/yuan/Desktop/Apriltag_LaserLine_ROS2/build/AprilTag
+Invoked command in '/home/yuan/Desktop/Apriltag_LaserLine_ROS2/build/AprilTag' returned '0': /usr/bin/cmake --install /home/yuan/Desktop/Apriltag_LaserLine_ROS2/build/AprilTag

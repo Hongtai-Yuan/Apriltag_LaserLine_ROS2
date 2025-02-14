@@ -1,0 +1,80 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for one of the modules 'opencv>=2.3'
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yuan/Desktop/Apriltag_LaserLine_ROS2/build/AprilTag
+[  4%] [32mBuilding C object src/CMakeFiles/apriltag.dir/tag16h5.c.o[0m
+[  4%] [32mBuilding C object src/CMakeFiles/apriltag.dir/tag25h7.c.o[0m
+[  8%] [32mBuilding C object src/CMakeFiles/apriltag.dir/apriltag_quad_thresh.c.o[0m
+[  8%] [32mBuilding C object src/CMakeFiles/apriltag.dir/apriltag.c.o[0m
+[ 11%] [32mBuilding C object src/CMakeFiles/apriltag.dir/tag36h10.c.o[0m
+[ 17%] [32mBuilding C object src/CMakeFiles/apriltag.dir/g2d.c.o[0m
+[ 17%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/zhash.c.o[0m
+[ 17%] [32mBuilding C object src/CMakeFiles/apriltag.dir/apriltag_family.c.o[0m
+[ 20%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/zarray.c.o[0m
+[ 24%] [32mBuilding C object src/CMakeFiles/apriltag.dir/tag36h11.c.o[0m
+[ 24%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/zmaxheap.c.o[0m
+[ 28%] [32mBuilding C object src/CMakeFiles/apriltag.dir/tag36artoolkit.c.o[0m
+[ 28%] [32mBuilding C object src/CMakeFiles/apriltag.dir/tag25h9.c.o[0m
+[ 33%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/unionfind.c.o[0m
+[ 31%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/matd.c.o[0m
+[ 35%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/image_u8.c.o[0m
+[ 37%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/pnm.c.o[0m
+[ 40%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/image_f32.c.o[0m
+[ 42%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/image_u32.c.o[0m
+[ 44%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/workerpool.c.o[0m
+[ 46%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/time_util.c.o[0m
+[ 48%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/svd22.c.o[0m
+[ 51%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/homography.c.o[0m
+[ 53%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/string_util.c.o[0m
+[ 55%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/getopt.c.o[0m
+[ 57%] [32mBuilding C object src/CMakeFiles/apriltag.dir/contrib/contour.c.o[0m
+[ 60%] [32mBuilding C object src/CMakeFiles/apriltag.dir/contrib/box.c.o[0m
+[ 62%] [32mBuilding C object src/CMakeFiles/apriltag.dir/contrib/lm.c.o[0m
+[ 64%] [32mBuilding C object src/CMakeFiles/apriltag.dir/contrib/apriltag_quad_contour.c.o[0m
+[ 66%] [32mBuilding C object src/CMakeFiles/apriltag.dir/contrib/pdfutil.c.o[0m
+[ 68%] [32mBuilding C object src/CMakeFiles/apriltag.dir/contrib/apriltag_vis.c.o[0m
+[ 71%] [32mBuilding C object src/CMakeFiles/apriltag.dir/contrib/pose.c.o[0m
+[ 73%] [32m[1mLinking C shared library ../lib/libapriltag.so[0m
+[ 73%] Built target apriltag
+[ 82%] [32mBuilding CXX object src/CMakeFiles/lm_test.dir/contrib/lm_test.cpp.o[0m
+[ 82%] [32mBuilding C object src/CMakeFiles/apriltag_demo.dir/apriltag_demo.c.o[0m
+[ 82%] [32mBuilding C object src/CMakeFiles/pose_test.dir/contrib/pose_test.c.o[0m
+[ 82%] [32mBuilding C object src/CMakeFiles/maketags.dir/contrib/maketags.c.o[0m
+[ 86%] [32mBuilding CXX object src/CMakeFiles/pdf_test.dir/contrib/pdf_test.cpp.o[0m
+[ 86%] [32mBuilding C object src/CMakeFiles/contour_test.dir/contrib/contour_test.c.o[0m
+[ 88%] [32m[1mLinking C executable ../bin/contour_test[0m
+[ 91%] [32m[1mLinking C executable ../bin/apriltag_demo[0m
+[ 93%] [32m[1mLinking C executable ../bin/pose_test[0m
+[ 95%] [32m[1mLinking C executable ../bin/maketags[0m
+[ 95%] Built target contour_test
+[ 95%] Built target apriltag_demo
+[ 95%] Built target maketags
+[ 95%] Built target pose_test
+[ 97%] [32m[1mLinking CXX executable ../bin/lm_test[0m
+[100%] [32m[1mLinking CXX executable ../bin/pdf_test[0m
+[100%] Built target lm_test
+[100%] Built target pdf_test
+-- Install configuration: ""
+-- Installing: /home/yuan/Desktop/Apriltag_LaserLine_ROS2/install/AprilTag/bin/apriltag_demo
+-- Set runtime path of "/home/yuan/Desktop/Apriltag_LaserLine_ROS2/install/AprilTag/bin/apriltag_demo" to ""
+-- Installing: /home/yuan/Desktop/Apriltag_LaserLine_ROS2/install/AprilTag/bin/maketags
+-- Set runtime path of "/home/yuan/Desktop/Apriltag_LaserLine_ROS2/install/AprilTag/bin/maketags" to ""
+-- Installing: /home/yuan/Desktop/Apriltag_LaserLine_ROS2/install/AprilTag/lib/libapriltag.so

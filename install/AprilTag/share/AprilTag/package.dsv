@@ -1,0 +1,9 @@
+source;share/AprilTag/hook/ld_library_path_lib.ps1
+source;share/AprilTag/hook/ld_library_path_lib.dsv
+source;share/AprilTag/hook/ld_library_path_lib.sh
+source;share/AprilTag/hook/path.ps1
+source;share/AprilTag/hook/path.dsv
+source;share/AprilTag/hook/path.sh
+source;share/AprilTag/hook/pythonscriptspath.ps1
+source;share/AprilTag/hook/pythonscriptspath.dsv
+source;share/AprilTag/hook/pythonscriptspath.sh

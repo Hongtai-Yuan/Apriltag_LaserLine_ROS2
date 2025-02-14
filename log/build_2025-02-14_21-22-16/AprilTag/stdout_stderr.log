@@ -1,0 +1,212 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+[0mCMake Deprecation Warning at CMakeLists.txt:3 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for one of the modules 'opencv>=2.3'
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yuan/Desktop/Apriltag_LaserLine_ROS2/build/AprilTag
+[  4%] [32mBuilding C object src/CMakeFiles/apriltag.dir/tag16h5.c.o[0m
+[  4%] [32mBuilding C object src/CMakeFiles/apriltag.dir/tag25h7.c.o[0m
+[  8%] [32mBuilding C object src/CMakeFiles/apriltag.dir/apriltag_quad_thresh.c.o[0m
+[  8%] [32mBuilding C object src/CMakeFiles/apriltag.dir/apriltag.c.o[0m
+[ 11%] [32mBuilding C object src/CMakeFiles/apriltag.dir/tag36h10.c.o[0m
+[ 17%] [32mBuilding C object src/CMakeFiles/apriltag.dir/g2d.c.o[0m
+[ 17%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/zhash.c.o[0m
+[ 17%] [32mBuilding C object src/CMakeFiles/apriltag.dir/apriltag_family.c.o[0m
+[ 20%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/zarray.c.o[0m
+[ 24%] [32mBuilding C object src/CMakeFiles/apriltag.dir/tag36h11.c.o[0m
+[ 24%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/zmaxheap.c.o[0m
+[ 28%] [32mBuilding C object src/CMakeFiles/apriltag.dir/tag36artoolkit.c.o[0m
+[ 28%] [32mBuilding C object src/CMakeFiles/apriltag.dir/tag25h9.c.o[0m
+[ 33%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/unionfind.c.o[0m
+[ 31%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/matd.c.o[0m
+[ 35%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/image_u8.c.o[0m
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/zhash.c:[m[K In function ‘[01m[Kzhash_get[m[K’:
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/zhash.c:143:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  143 |     for (int i = 0; i [01;35m[K<[m[K bucket->size; i++) {
+      |                       [01;35m[K^[m[K
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/zhash.c:[m[K In function ‘[01m[Kzhash_get_volatile[m[K’:
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/zhash.c:166:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  166 |     for (int i = 0; i [01;35m[K<[m[K bucket->size; i++) {
+      |                       [01;35m[K^[m[K
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/zhash.c:[m[K In function ‘[01m[Kzhash_put_real[m[K’:
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/zhash.c:195:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  195 |     for (int i = 0; i [01;35m[K<[m[K bucket->size; i++) {
+      |                       [01;35m[K^[m[K
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/zhash.c:[m[K In function ‘[01m[Kzhash_remove[m[K’:
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/zhash.c:245:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  245 |     for (int i = 0; i [01;35m[K<[m[K bucket->size; i++) {
+      |                       [01;35m[K^[m[K
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/zhash.c:262:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  262 |             if (i [01;35m[K!=[m[K bucket->size - 1) {
+      |                   [01;35m[K^~[m[K
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/zhash.c:[m[K In function ‘[01m[Kzhash_iterator_next_volatile[m[K’:
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/zhash.c:368:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  368 |         if (zit->idx [01;35m[K<[m[K bucket->size) {
+      |                      [01;35m[K^[m[K
+In file included from [01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/unionfind.c:32[m[K:
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/unionfind.h:[m[K In function ‘[01m[Kunionfind_create[m[K’:
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/unionfind.h:63:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   63 |     for (int i = 0; i [01;35m[K<=[m[K maxid; i++) {
+      |                       [01;35m[K^~[m[K
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/image_u8.c:[m[K In function ‘[01m[Kimage_u8_write_pnm[m[K’:
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/image_u8.c:181:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  181 |         if (im->width [01;35m[K!=[m[K fwrite(&im->buf[y*im->stride], 1, im->width, f)) {
+      |                       [01;35m[K^~[m[K
+[ 37%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/pnm.c.o[0m
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/apriltag.c:[m[K In function ‘[01m[Krotate90[m[K’:
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/apriltag.c:89:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint32_t[m[K’ {aka ‘[01m[Kint[m[K’} and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   89 |         for (int32_t c = 0; c [01;35m[K<[m[K d; c++) {
+      |                               [01;35m[K^[m[K
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/apriltag.c:[m[K In function ‘[01m[Kquick_decode_init[m[K’:
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/apriltag.c:180:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  180 |     for (int i = 0; i [01;35m[K<[m[K family->ncodes; i++) {
+      |                       [01;35m[K^[m[K
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/apriltag.c:[m[K In function ‘[01m[Kquad_decode[m[K’:
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/apriltag.c:602:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  602 |     for (int pattern_idx = 0; pattern_idx [01;35m[K<[m[K sizeof(patterns)/(5*sizeof(float)); pattern_idx ++) {
+      |                                           [01;35m[K^[m[K
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/apriltag.c:607:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  607 |         for (int i = 0; i [01;35m[K<[m[K 2*family->black_border + family->d; i++) {
+      |                           [01;35m[K^[m[K
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/apriltag.c:637:33:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  637 |     for (int bitidx = 0; bitidx [01;35m[K<[m[K family->d * family->d; bitidx++) {
+      |                                 [01;35m[K^[m[K
+[ 40%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/image_f32.c.o[0m
+In file included from [01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/apriltag_quad_thresh.c:44[m[K:
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/unionfind.h:[m[K In function ‘[01m[Kunionfind_create[m[K’:
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/unionfind.h:63:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   63 |     for (int i = 0; i [01;35m[K<=[m[K maxid; i++) {
+      |                       [01;35m[K^~[m[K
+[ 42%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/image_u32.c.o[0m
+[ 44%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/workerpool.c.o[0m
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/apriltag_quad_thresh.c:[m[K In function ‘[01m[Kapriltag_quad_thresh[m[K’:
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/apriltag_quad_thresh.c:1705:51:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1705 |                 if (unionfind_get_set_size(uf, v) [01;35m[K<[m[K td->qtp.min_cluster_pixels)
+      |                                                   [01;35m[K^[m[K
+[ 46%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/time_util.c.o[0m
+[ 48%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/svd22.c.o[0m
+[ 51%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/homography.c.o[0m
+[ 53%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/string_util.c.o[0m
+[ 55%] [32mBuilding C object src/CMakeFiles/apriltag.dir/common/getopt.c.o[0m
+[ 57%] [32mBuilding C object src/CMakeFiles/apriltag.dir/contrib/contour.c.o[0m
+[ 60%] [32mBuilding C object src/CMakeFiles/apriltag.dir/contrib/box.c.o[0m
+[ 62%] [32mBuilding C object src/CMakeFiles/apriltag.dir/contrib/lm.c.o[0m
+[ 64%] [32mBuilding C object src/CMakeFiles/apriltag.dir/contrib/apriltag_quad_contour.c.o[0m
+[ 66%] [32mBuilding C object src/CMakeFiles/apriltag.dir/contrib/pdfutil.c.o[0m
+[ 68%] [32mBuilding C object src/CMakeFiles/apriltag.dir/contrib/apriltag_vis.c.o[0m
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/string_util.c:[m[K In function ‘[01m[Kstr_diff_idx[m[K’:
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/string_util.c:146:14:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  146 |     for (; i [01;35m[K<[m[K minlen; i++)
+      |              [01;35m[K^[m[K
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/string_util.c:[m[K In function ‘[01m[Kstr_tolowercase[m[K’:
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/string_util.c:260:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  260 |     for (int i = 0; i [01;35m[K<[m[K slen; i++) {
+      |                       [01;35m[K^[m[K
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/string_util.c:[m[K In function ‘[01m[Kstr_touppercase[m[K’:
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/string_util.c:273:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  273 |     for (int i = 0; i [01;35m[K<[m[K slen; i++) {
+      |                       [01;35m[K^[m[K
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/string_util.c:[m[K In function ‘[01m[Kstring_buffer_append[m[K’:
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/string_util.c:306:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  306 |     if (sb->size+2 [01;35m[K>=[m[K sb->alloc) {
+      |                    [01;35m[K^~[m[K
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/getopt.c:[m[K In function ‘[01m[Kgetopt_parse[m[K’:
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/getopt.c:186:14:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  186 |     while (i [01;35m[K<[m[K zarray_size(toks)) {
+      |              [01;35m[K^[m[K
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/string_util.c:[m[K In function ‘[01m[Kstring_buffer_append_string[m[K’:
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/string_util.c:364:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  364 |     while (sb->size+len + 1 [01;35m[K>=[m[K sb->alloc) {
+      |                             [01;35m[K^~[m[K
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/getopt.c:209:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  209 |                 if ((i+1) [01;35m[K<[m[K zarray_size(toks)) {
+      |                           [01;35m[K^[m[K
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/getopt.c:231:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  231 |                 if ((i+1) [01;35m[K<[m[K zarray_size(toks)) {
+      |                           [01;35m[K^[m[K
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/getopt.c:248:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  248 |             for (pos = 1; pos [01;35m[K<[m[K len; pos++) {
+      |                               [01;35m[K^[m[K
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/getopt.c:279:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  279 |                     if ((i+1) [01;35m[K<[m[K zarray_size(toks)) {
+      |                               [01;35m[K^[m[K
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/string_util.c:[m[K In function ‘[01m[Kstring_feeder_require[m[K’:
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/string_util.c:517:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  517 |     for (int i = 0; i [01;35m[K<[m[K len; i++) {
+      |                       [01;35m[K^[m[K
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/getopt.c:[m[K In function ‘[01m[Kgetopt_get_usage[m[K’:
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/getopt.c:510:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  510 |     for (unsigned int i = 0; i [01;35m[K<[m[K zarray_size(gopt->options); i++) {
+      |                                [01;35m[K^[m[K
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/getopt.c:523:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  523 |     for (unsigned int i = 0; i [01;35m[K<[m[K zarray_size(gopt->options); i++) {
+      |                                [01;35m[K^[m[K
+In file included from [01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/zarray.h:36[m[K,
+                 from [01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/string_util.h:39[m[K,
+                 from [01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/string_util.c:41[m[K:
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/string_util.c:[m[K In function ‘[01m[Kstr_substring[m[K’:
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/string_util.c:583:33:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Klong int[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  583 |     assert(endidx < 0 || endidx [01;35m[K>=[m[K startidx);
+      |                                 [01;35m[K^~[m[K
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/string_util.c:584:33:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Klong int[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  584 |     assert(endidx < 0 || endidx [01;35m[K<=[m[K strlen(str)+1);
+      |                                 [01;35m[K^~[m[K
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/string_util.c:[m[K In function ‘[01m[Kstr_replace[m[K’:
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/common/string_util.c:607:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  607 |     while (pos [01;35m[K<[m[K haystack_len) {
+      |                [01;35m[K^[m[K
+[ 71%] [32mBuilding C object src/CMakeFiles/apriltag.dir/contrib/pose.c.o[0m
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/contrib/pdfutil.c:[m[K In function ‘[01m[Kpdf_font_name[m[K’:
+[01m[K/home/yuan/Desktop/Apriltag_LaserLine_ROS2/src/AprilTag_USB/src/contrib/pdfutil.c:867:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  867 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[ 73%] [32m[1mLinking C shared library ../lib/libapriltag.so[0m
+[ 73%] Built target apriltag
+[ 82%] [32mBuilding CXX object src/CMakeFiles/lm_test.dir/contrib/lm_test.cpp.o[0m
+[ 82%] [32mBuilding C object src/CMakeFiles/apriltag_demo.dir/apriltag_demo.c.o[0m
+[ 82%] [32mBuilding C object src/CMakeFiles/pose_test.dir/contrib/pose_test.c.o[0m
+[ 82%] [32mBuilding C object src/CMakeFiles/maketags.dir/contrib/maketags.c.o[0m
+[ 86%] [32mBuilding CXX object src/CMakeFiles/pdf_test.dir/contrib/pdf_test.cpp.o[0m
+[ 86%] [32mBuilding C object src/CMakeFiles/contour_test.dir/contrib/contour_test.c.o[0m
+[ 88%] [32m[1mLinking C executable ../bin/contour_test[0m
+[ 91%] [32m[1mLinking C executable ../bin/apriltag_demo[0m
+[ 93%] [32m[1mLinking C executable ../bin/pose_test[0m
+[ 95%] [32m[1mLinking C executable ../bin/maketags[0m
+[ 95%] Built target contour_test
+[ 95%] Built target apriltag_demo
+[ 95%] Built target maketags
+[ 95%] Built target pose_test
+[ 97%] [32m[1mLinking CXX executable ../bin/lm_test[0m
+[100%] [32m[1mLinking CXX executable ../bin/pdf_test[0m
+[100%] Built target lm_test
+[100%] Built target pdf_test
+-- Install configuration: ""
+-- Installing: /home/yuan/Desktop/Apriltag_LaserLine_ROS2/install/AprilTag/bin/apriltag_demo
+-- Set runtime path of "/home/yuan/Desktop/Apriltag_LaserLine_ROS2/install/AprilTag/bin/apriltag_demo" to ""
+-- Installing: /home/yuan/Desktop/Apriltag_LaserLine_ROS2/install/AprilTag/bin/maketags
+-- Set runtime path of "/home/yuan/Desktop/Apriltag_LaserLine_ROS2/install/AprilTag/bin/maketags" to ""
+-- Installing: /home/yuan/Desktop/Apriltag_LaserLine_ROS2/install/AprilTag/lib/libapriltag.so
