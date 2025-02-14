@@ -1,3 +1,0 @@
-/home/yuan/Desktop/Apriltag_LaserLine_ROS2/install/AprilTag/bin/apriltag_demo
-/home/yuan/Desktop/Apriltag_LaserLine_ROS2/install/AprilTag/bin/maketags
-/home/yuan/Desktop/Apriltag_LaserLine_ROS2/install/AprilTag/lib/libapriltag.so
